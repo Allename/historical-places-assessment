@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, MapPin, Calendar, Check, X } from 'lucide-react';
+import { ArrowLeft, MapPin, Calendar, Check } from 'lucide-react';
 import { useAppSelector, useAppDispatch } from '../hooks/redux';
 import { toggleVisited } from '../store/placesSlice';
 
@@ -80,7 +80,7 @@ const PlaceDetail: React.FC = () => {
               </>
             ) : (
               <>
-                <X className="inline mr-2" size={18} />
+                <Check className="inline mr-2" size={18} />
                 Mark as Visited
               </>
             )}
@@ -136,7 +136,7 @@ const PlaceDetail: React.FC = () => {
               >
                 {place.visited ? (
                   <>
-                    <X className="inline mr-2" size={18} />
+                    <Check className="inline mr-2" size={18} />
                     Mark as Unvisited
                   </>
                 ) : (
