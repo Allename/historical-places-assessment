@@ -37,13 +37,11 @@ A React-based application for exploring and tracking visits to historical places
 ````
 
 2. **Install dependencies**
-
    ```bash
    npm install
    ```
 
 3. **Start the development server**
-
    ```bash
    npm run dev
    ```
@@ -148,5 +146,3 @@ The build artifacts will be stored in the `dist/` or `build/` directory.
 ## Support
 
 If you have any questions or need help, please open an issue in the GitHub repository or contact the development team.
-
----
