@@ -1,3 +1,4 @@
+````markdown
 # Historical Places App
 
 A React-based application for exploring and tracking visits to historical places around the world. The app allows users to browse historical sites, mark them as visited, and discover new places through an interactive random suggestion feature.
@@ -147,3 +148,5 @@ The build artifacts will be stored in the `dist/` or `build/` directory.
 ## Support
 
 If you have any questions or need help, please open an issue in the GitHub repository or contact the development team.
+
+---
