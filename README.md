@@ -1,4 +1,4 @@
-````markdown
+
 # Historical Places App
 
 A React-based application for exploring and tracking visits to historical places around the world. The app allows users to browse historical sites, mark them as visited, and discover new places through an interactive random suggestion feature.
@@ -30,21 +30,21 @@ A React-based application for exploring and tracking visits to historical places
 
 ### Installation
 
+
 1. **Clone the repository**
-   ```bash
+```bash
    git clone <repository-url>
    cd historical-places-app
 ````
 
 2. **Install dependencies**
-   ```bash
+```bash
    npm install
-   ```
-
+````
 3. **Start the development server**
-   ```bash
+```bash
    npm run dev
-   ```
+````
 
 4. **Open your browser**
    Navigate to `http://localhost:3000` (or the port specified in the terminal) to view the application.
